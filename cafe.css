@@ -44,7 +44,6 @@ img {
 }
 
 .interior {
-    width: 50%;
     object-fit: contain;
     align-self: flex-start;
 }
