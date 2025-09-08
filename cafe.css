@@ -48,3 +48,7 @@ img {
     object-fit: contain;
     align-self: flex-start;
 }
+
+.col {
+    padding-left: 0px;
+}
