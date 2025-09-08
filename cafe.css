@@ -4,8 +4,9 @@ body {
 }
 
 header {
+    background-image: url("./images/coffee_beans.jpg");
     height: 300px; 
-    color: white; 
+    color: white;
     display: flex;
     background-size: cover;  
     align-items: center; 
