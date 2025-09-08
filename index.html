@@ -99,7 +99,7 @@
 					 <h4>Kávé árlista</h4>
 					 <table class="table">
 						 <thead>
-							 <tr>
+							 <tr class="bg-dark text-white">
 								 <th>Kávé típusa</th>
 								 <th>Ár</th>
 							 </tr>
@@ -118,6 +118,10 @@
 								 <td>600 Ft</td>
 							 </tr>
 							 <tr>
+								<td>Latte Macchiato</td>
+								<td>650 Ft</td>
+							</tr>
+							 <tr>
 								 <td>Flat White</td>
 								 <td>700 Ft</td>
 							 </tr>
@@ -129,23 +133,27 @@
 
 		<!-- Elérhetőségek -->
 
+		<h2 id="contact" class="p-3">Elérhetőségek</h2>
+
 		<div class="row">
-			<div>
-				Üzemeltető: Horváth Anna
-				Cím: 6720 Szeged, Kávé utca 1.
-				Telefonszám: +36 20 555 1234
-				Email: info@cafe-arroma.hu
+			<div class="col-6">
+				<ul>
+					<li>Üzemeltető: Horváth Anna</li>
+					<li>Cím: 6720 Szeged, Kávé utca 1.</li>
+					<li>Telefonszám: +36 20 555 1234</li>
+					<li>Email: info@cafe-arroma.hu</li>
+				</ul>
 			</div>
 			<!-- Üzenetküldő űrlap -->
-			<div>
-				<form>
+			<div class="float-right col-6">
+				<form class="urlap">
 					<div class="form-group">
 						<label for="name">Név:</label>
-						<input type="text" id="name" required>
+						<input class="form-control" type="text" id="name" required>
 					</div>
 					<div class="form-group">
 						<label for="message">Üzenet:</label>
-						<textarea id="message" rows="3" required></textarea>
+						<textarea class="form-control" id="message" rows="3" required></textarea>
 					</div>
 					<button type="submit" class="btn btn-primary">Küldés</button>
 				</form>
@@ -165,7 +173,7 @@
 		</div>
 		<!-- Lábléc -->
 		<footer class="p-2">
-
+			<p>Készítette: <a href="https://bankitatabanya.hu/" target="_blank">Preil Dániel</a></p>
 		</footer>
 	</div>
 </body>

@@ -32,6 +32,7 @@ footer {
     background-color: #f8f9fa;
     color: #6c757d;
     padding: 10px 0;
+    text-align: center;
 }
 
 h1, h2, h4 {
@@ -54,4 +55,14 @@ img {
 
 span {
     font-weight: bold;
+}
+
+.urlap {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer a, footer a:hover, footer a:active {
+    color: brown;
 }
