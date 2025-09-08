@@ -51,3 +51,7 @@ img {
 .col {
     padding-left: 0px;
 }
+
+span {
+    font-weight: bold;
+}
