@@ -66,3 +66,8 @@ span {
 footer a, footer a:hover, footer a:active {
     color: brown;
 }
+
+iframe {
+    height: 400px;
+    width: 100%;
+}
