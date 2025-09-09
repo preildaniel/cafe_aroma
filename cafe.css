@@ -63,7 +63,7 @@ span {
     padding: 10px;
 }
 
-footer a, footer a:hover, footer a:active {
+footer a, footer a:hover, footer a:active, a:visited {
     color: brown;
 }
 
